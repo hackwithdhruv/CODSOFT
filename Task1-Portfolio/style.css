@@ -142,6 +142,17 @@ nav a:hover {
   text-align: center;
 }
 
+.project-card a {
+  text-decoration: none; /* Removes the underline */
+  color: inherit;       /* Inherits text color from parent */
+  display: block;       /* Makes the entire card clickable */
+  /* Add any other styling you want, e.g., padding, hover effects */
+}
+
+.project-card a:hover {
+  background-color: #f0f0f0; /* Example hover effect */
+}
+
 .project-card {
   background-color: #eaeaea;
   padding: 20px;
